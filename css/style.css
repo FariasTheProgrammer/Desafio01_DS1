@@ -1,0 +1,29 @@
+.Header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.Image_Logo{
+    grid-column: 1;
+    background-color: black;
+}
+
+.Nav{
+    grid-column: 3/4;
+    background-color: aquamarine;
+}
+
+.grid-main{
+    background-color: blue;
+    padding: 40px;
+    align-items: center;
+    grid-column: 2/4;
+    place-items: center;
+}
+
+.Textos{
+    grid-column: 2/3;
+    background-color: brown ;
+    place-items: center;
+}
