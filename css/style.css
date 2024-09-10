@@ -1,29 +1,48 @@
-.Header {
-    display: grid;
-    grid-template-columns: auto auto auto;
+body{
+    background-image: url(/images/fundo.png);
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px; 
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-flex ul {
+    list-style: none;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+}
+
+.nav-flex li {
+    margin: 0 10px;
+}
+
+.nav-flex a {
+    text-decoration: none; 
+    color: black; 
+    font-weight: bold; 
+}
+
+
+.capa-flex{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
     
 }
 
-.Image_Logo{
-    grid-column: 1;
-    background-color: black;
-}
-
-.Nav{
-    grid-column: 3/4;
-    background-color: aquamarine;
-}
-
-.grid-main{
-    background-color: blue;
-    padding: 40px;
-    align-items: center;
-    grid-column: 2/4;
-    place-items: center;
-}
-
-.Textos{
-    grid-column: 2/3;
-    background-color: brown ;
-    place-items: center;
+h4{
+    
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    ;
 }
